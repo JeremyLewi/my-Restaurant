@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Free restaurant catalogue for you" />
+		<meta name="theme-color" content="#DB0000" />
+		<link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+		<link rel="icon" href="./favicon.png" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="manifest" href="./app.webmanifest" />
+		<script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+
+		<title>My restaurant</title>
+	</head>
+	<body>
+		<a href="#mainContent" class="skip-link">Menuju ke konten</a>
+		<header>
+			<div class="app-bar">
+				<div class="app-bar__menu">
+					<button id="hamburgerButton">☰</button>
+				</div>
+				<div class="app-bar__brand">
+					<h1 tabindex="0">My Restaurant</h1>
+				</div>
+				<nav id="navigationDrawer" class="app-bar__navigation">
+					<ul>
+						<li><a href="#/home">Home</a></li>
+						<li><a href="#/favorite">Favorite</a></li>
+						<li>
+							<a
+								href="https://www.linkedin.com/in/jeremy-lewi-munthe-b44682230"
+								target="_blank"
+								rel="noreferrer"
+								>About</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="hero">
+				<div class="hero__inner">
+					<h1 class="hero__title">Order From Your Favorite Restaurant</h1>
+					<p class="hero__tagline">
+						One of the very nicest things about life is the way we must regularly stop whatever it
+						is we are doing and devote our attention to eating.
+					</p>
+				</div>
+			</div>
+		</header>
+		<main tabindex="0" id="mainContent"></main>
+		<footer>
+			<p>
+				All data obtained from
+				<a href="https://restaurant-api.dicoding.dev" target="_blank" rel="noreferrer"
+					>TherestaurantDB</a
+				>
+			</p>
+		</footer>
+	</body>
+</html>
