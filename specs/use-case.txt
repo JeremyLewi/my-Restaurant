@@ -1,0 +1,30 @@
+Use Case :
+
+1. Tampilkan halaman restoran.
+2. Bila restoran ini belum disukai, tampilkan widget untuk menyukai restoran. Widget ini berbentuk hati kosong.
+3. Bila restoran sudah disukai, tampilkan widget berbentuk hati penuh. Pengguna dapat membatalkan kesukaannya padar restoran ini.
+
+**Skenario Menyukai Restoran:**
+
+1. Restoran belum disukai.
+2. Widget untuk menyukai restoran ditampilkan
+3. Widget menyukai restoran ditekan oleh pengguna.
+4. Restoran ditambahkan ke daftar restoran yang disukai:
+    a. Ternyata restoran sudah disukai:
+        - Tidak perlu menyimpan kembali.
+    b. Data restoran tidak memiliki ID:
+        - Sistem tidak memproses penyimpanan.
+        - Sistem tidak gagal.
+
+**Skenario Batal Menyukai Restoran:**
+
+1. restoran sudah disukai.
+2. Widget untuk batal menyukai restoran ditampilkan.
+3. Widget pembatalan ditekan oleh pengguna.
+4. restoran dihapus dari daftar restoran yang disukai:
+    a. Ternyata restoran tidak ada dalam daftar restoran yang disukai.
+    
+
+alur positif  = angka
+
+alur negatif = huruf
